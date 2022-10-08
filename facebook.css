@@ -1,0 +1,197 @@
+Body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(234,229,270);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+header{
+    width: 100%;
+ background-image: linear-gradient(#4e69e2,#3b5998,50%);
+    background-color: #3b5998;
+    border-bottom: 1px solid #133743;
+    display:flex;
+    justify-content:flex-start;
+    padding: 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+  
+    
+
+}
+#brand{
+    font-size: 150%;
+    font-weight:bold;
+    margin-top: 3%;
+    font-size: 40px;
+    
+}
+header form{
+    color: white;
+     margin-left: 60%; 
+}
+header form ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 5px 0px;
+    
+  
+}
+header form li{
+ /* align-self: flex-start; */
+    padding: 1%;
+}
+header form input[type=submit]{
+   background-color: #4267b2;
+   border: .3px black;
+   margin-top: 36%;
+   color: white;
+   
+   font-weight: bold;
+   height: 37%;
+  
+
+
+}
+body main div{
+   display: flex;
+}
+.edit{
+    flex-grow: 1;
+display: flex;
+width: 47%;
+flex-wrap: wrap;
+
+
+
+}
+.edit img{
+    width: 100%;
+
+}
+#banner{
+    margin-top: 7%;
+    margin-left: 7%;
+        font-size: 25px;
+    line-height: 5px;
+    font-weight: bold;
+    max-width: 600px;
+    color:darkblue;
+    line-height: 150%;
+}
+.edit1{
+    margin-left: 60%;
+   margin-top: -24%;
+   width: 100%;
+   line-height: 100%;
+    display: flex;
+    flex-direction: column;
+flex-grow: 1;
+    font-weight:bolder;
+    align-self: flex-start;
+
+
+}
+#right{
+    align-self: flex-start;
+    line-height: 50%;
+    margin: 1%;
+
+
+}
+#name{
+width: 180px;
+font-size: 18px;
+padding: 8px 10px;
+border: 1px solid #ccd0d5;
+border-radius: 4px;
+color: #1c1e21;
+
+}
+#surname{
+    width: 180px;
+    font-size: 18px;
+    padding: 8px 10px;
+     border: 1px solid #ccd0d5; 
+    border-radius: 4px;
+    
+    }
+#email{
+        width: 386px;
+        font-size: 18px;
+        padding: 8px 10px;
+         border: 1px solid #ccd0d5; 
+        border-radius: 4px;
+        margin: 0.1em;
+        
+        }
+#password{
+            width: 386px;
+            font-size: 18px;
+            padding: 8px 10px;
+             border: 1px solid #ccd0d5; 
+            border-radius: 4px;
+            margin: 0.1em;
+            
+            }
+.subtitle{
+    color: #90949c;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    margin: .7% -.2%;
+}
+select{
+    font-size: 13px;
+    height: 25px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+}     
+input[type=radio]~label{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 10px;
+    padding: 2px;
+
+}      
+.term{
+  
+    color: #777;
+    /* height: 300px; */
+    font-size: 11px;
+  font-weight: normal;
+  
+
+}
+
+.term a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.term a:hover{
+    text-decoration: underline;
+}
+.edit1 input[type=submit]{
+    width: 200px;
+    background-image: linear-gradient(#67ae55,#578843);
+    margin-top: 10px;
+    padding: 10px 7px;
+    font-size: 18px;
+   
+    box-shadow: inset 0px 1px 1px #a4e333;
+    border-color: #90c925;
+    border: 1px solid rgb(128, 190, 35);
+    color: white;
+    background-color: #84b529;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: .1px 1px 2px rgb(230, 230, 207);
+
+}
